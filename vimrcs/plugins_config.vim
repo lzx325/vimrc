@@ -160,3 +160,11 @@ nmap <silent> <leader>a <Plug>(ale_next_wrap)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Single Compile
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nmap <F9> :SCCompile<cr> 
+nmap <F10> :SCCompileRun<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
