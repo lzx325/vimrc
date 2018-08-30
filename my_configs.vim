@@ -1,4 +1,5 @@
 set nu
+let g:go_version_warning = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Single Compile

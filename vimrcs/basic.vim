@@ -166,7 +166,8 @@ set ffs=unix,dos,mac
 " Turn backup off, since most stuff is in SVN, git et.c anyway...
 set nobackup
 set nowb
-set noswapfile
+" lizx: enable swap
+" set noswapfile
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
